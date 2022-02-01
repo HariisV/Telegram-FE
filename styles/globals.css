@@ -1,16 +1,138 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.navbar {
+  background: #f4f5f8;
+  color: white !important;
+  min-height: 100px;
+  font-family: "Poppins", sans-serif;
 }
 
-a {
-  color: inherit;
+body {
+  background: #f4f5f8;
+}
+
+.navbar-brand {
+  margin-right: 50px;
+}
+
+.navbar__btn {
+  border-radius: 20px !important;
+  padding: 10px 35px 10px 35px !important;
+}
+
+.navbar__list {
+  font-weight: 500;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.hero {
+  width: 100%;
+  /* height: 650px; */
+  object-fit: contain;
+}
+.hero__btn {
+  border-radius: 20px !important;
+  padding: 15px 60px 15px 60px !important;
+  margin-right: 20px;
+}
+.hero__btn--text {
+  border-radius: 20px !important;
+  padding: 15px 30px 15px 30px !important;
+  margin-right: 20px;
+}
+
+.hero__title {
+  font-size: 2.625rem;
+  font-weight: bold;
+  color: #0c145a;
+}
+
+.hero__span {
+  position: relative;
   text-decoration: none;
 }
+.hero__span::after {
+  position: absolute;
+  content: "";
+  height: 6px;
+  bottom: 8px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #00baff;
+  z-index: -10;
+}
 
-* {
-  box-sizing: border-box;
+.hero__desc--title {
+  font-weight: 400;
+  color: #7e8cac;
+}
+.hero__desc {
+  font-weight: 400;
+  font-size: 18px;
+  color: #0c145a;
+}
+
+.foooter {
+  padding: 20px !important;
+  background-color: #0c145a !important;
+}
+.card__btn {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.card__link {
+  margin-top: 20px !important;
+  color: #7e98df !important;
+  cursor: pointer;
+  text-decoration: none;
+}
+.sidebar {
+  background-color: white !important;
+  height: 100vh !important;
+}
+
+.user__name {
+  font-family: "Rubik";
+  size: 24px;
+  font-weight: 500;
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+.user__id {
+  font-family: "Rubik";
+  size: 16px;
+  color: #848484;
+  font-weight: 400;
+}
+.img__chat {
+  border-radius: 15px;
+}
+.listUser {
+  cursor: pointer;
+}
+.leftbar-container {
+  width: 620px;
+}
+.leftbar-content {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.leftbar__title {
+  font-size: 2.625rem;
+  font-weight: bold;
+  color: #0c145a;
+  font-family: "Poppins";
+}
+.sidebar__title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #0c145a;
+  font-family: "Poppins";
+}
+.leftbar-container {
+  font-family: "Poppins";
+  font-size: 14px;
 }
